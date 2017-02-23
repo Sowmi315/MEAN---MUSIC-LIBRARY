@@ -1,0 +1,46 @@
+body {
+    background:url(../images/musicbg.png);
+    background-repeat: repeat-x;
+    padding: 10px;
+    font-family: Lato, Arial, sans-serif;
+    background: #ED4264;
+    background: -webkit-linear-gradient(to left, #ED4264 , #FFEDBC);
+    background: linear-gradient(to left, #ED4264 , #FFEDBC); 
+        
+}
+.pageTitle{
+    color: white;
+    text-align: center;
+}
+.pageDesc{
+    color: white;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+
+th {
+    font-size: 16pt;
+    font-weight: bolder;
+    text-align: center;
+}
+
+th.modify {
+    width: 175px;
+}
+
+.modifyPanel {
+    background-color: darkgray;
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+}
+form {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+label {
+    padding-left: 8px;
+}
